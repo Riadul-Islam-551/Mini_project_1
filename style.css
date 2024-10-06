@@ -24,8 +24,8 @@
 .hero .hero_content h1 {
   font-size: 4rem;
   margin-bottom: 10px;
-  color: rgb(255, 103, 2);
-  text-shadow: 5px 5px 7px rgb(0, 0, 0);
+  color: rgb(0, 174, 255);
+  text-shadow: 5px 5px 7px white;
 }
 .hero .hero_content p {
   background-color: black;
@@ -54,13 +54,12 @@
   border-radius: 7px;
   border: none;
   margin-top: 20px;
-  background-color: rgb(255, 124, 2);
+  background-color:rgb(0, 174, 255);
   color: white;
   box-shadow: 5px 5px 7px white;
   transition: 0.3s;
 }
 .hero .hero_content button:hover {
-  background-color: rgb(255, 103, 2);
-  color: white;
+  background-color: rgb(0, 204, 255);
   box-shadow: 5px 5px 10px white;
 }
