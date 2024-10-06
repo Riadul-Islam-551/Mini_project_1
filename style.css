@@ -54,7 +54,7 @@
   border-radius: 7px;
   border: none;
   margin-top: 20px;
-  background-color:rgb(0, 174, 255);
+  background-color: rgb(0, 174, 255);
   color: white;
   box-shadow: 5px 5px 7px white;
   transition: 0.3s;
@@ -62,4 +62,88 @@
 .hero .hero_content button:hover {
   background-color: rgb(0, 204, 255);
   box-shadow: 5px 5px 10px white;
+}
+/* product section  */
+.product_heading {
+  font-size: 2rem;
+  margin: 20px 0px;
+  color: rgb(0, 174, 255);
+  text-align: center;
+}
+.product_details{
+  margin: 20px auto;
+  width: 90%;
+  max-width: 700px;
+  text-align: justify;
+  color: rgb(82, 82, 82);
+}
+.product .container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+.product .container .content {
+  width: 300px;
+  height: 450px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  border-radius: 13px;
+  overflow: hidden;
+  border: none;
+  background-color: rgb(228, 228, 228);
+}
+.product .container .content .cont_img {
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.product .container .content h3 {
+  margin: 10px;
+}
+.product .container .content p {
+  font-size: 0.8rem;
+  text-align: justify;
+  margin: 0 20px;
+}
+.product .container .content button {
+  font-weight: 900;
+  margin-top: 10px;
+  padding: 5px 13px;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  background-color: rgb(255, 136, 0);
+  transition: 0.3s;
+}
+.product .container .content button:hover {
+  background-color: rgb(255, 148, 25);
+  box-shadow: 3px 3px 7px black;
+}
+/* product image  */
+.product .container .content .burger {
+  background-image: url(./images/Burger.jpg);
+}
+.product .container .content .pizza {
+  background-image: url(./images/Pizza.jpg);
+}
+.product .container .content .kabab {
+  background-image: url(./images/Kabab.jpg);
+}
+.product .container .content .soup {
+  background-image: url(./images/Soup.jpg);
+}
+.product .container .content .stake {
+  background-image: url(./images/Stake.jpg);
+}
+.product .container .content .desert {
+  background-image: url(./images/Desert.jpg);
 }
